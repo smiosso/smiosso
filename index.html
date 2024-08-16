@@ -9,7 +9,7 @@
     <meta name="description" content="personal portfolio" />
     <meta name="author" content="Samantha Tamiosso"/>
     <meta name="keywords" content="web development, portfolio, ux/ui, design, graphic design, product design" />
-    <link rel="icon" href="/assets/img/home/icon-standart.png" type="image/x-icon">
+    <link rel="icon" href="/assets/home/icon-standart.png" type="image/x-icon">
     
     <!-- css links -->
     <link rel="stylesheet" href="/css/stylesheet.css"></link>
@@ -28,10 +28,14 @@
 </head>
 
 <body>
+
+    <!-- navbar -->
     <nav class="nav-bar">
-        <a href="#home">
-            <img src="/assets/img/home/icon-standart.png" alt="home" class="logo">
-        </a>
+        <div class="div-logo">
+            <a href="#home">
+                <img src="/assets/home/icon-standart.png" alt="home" class="logo">
+            </a>
+        </div>
         <div class="nav-menu">
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
@@ -47,6 +51,7 @@
 
     </nav>
 
+    <!-- header -->
     <header>
         <div class="header-text">
             <h1>hi, I`m Sam,</h1>
@@ -61,16 +66,17 @@
         </div>
     </header>
 
+    <!-- about me -->
     <section class="about-me">
         <div class="my-photo">
-            <img src="/assets/img/home/my-photo.png"
+            <img src="/assets/home/my-photo.jpg"
             alt="my photo"
             loading="auto">
         </div>
         <div class="about-me-content">
             <h6>about me</h6>
             <h2>yeah, that`s me!</h2>
-            <p>You probably wonder how I ended up in this situation.</p>
+            <p>You're probably wonder how I ended up in this situation.</p>
             <div class="highlight-border">
                 <p class="highlight">just kidding</p>
             </div>
@@ -80,6 +86,34 @@
         </div>
 
     </section>
+
+    <!-- playground -->
+    <section class="playground">
+        <div class="playground-text">
+            <h6>playground</h6>
+            <h2>here is where the fun happens.</h2>
+            <p>Choose your battle:</p>
+        </div>
+        <div class="header-buttons">
+            <a href="#" class="h-button">web development</a>
+            <a href="#" class="h-button">graphic design</a>
+            <a href="#" class="h-button">ux/ui</a>
+            <a href="#" class="h-button">product design</a>
+            <a href="#" class="h-button">articles</a>
+        </div>
+
+    </section>
     
 </body>
+
+<!-- footer -->
+<footer class="footer">
+    <div class="footer-text">
+        <p id="text-footer">© Created for Samantha Tamiosso. All rights reserved.</p>
+    </div>
+    <div class="footer-media">
+        <a class="media-link" href="https://www.linkedin.com/in/samantha-colognese-tamiosso/" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a class="media-link" href="https://github.com/smiosso" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+</footer>
 </html>
