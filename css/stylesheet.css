@@ -65,7 +65,7 @@ header {
 
 /* about me */
 
-.about-me {
+#about-me {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -108,7 +108,7 @@ header {
 
 /* playground */
 
-.playground {
+#playground {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -120,7 +120,7 @@ header {
 }
 
 /* footer */
-.footer {
+#footer {
     background-color: var(--orange);
     display: flex;
     width: 100%;
